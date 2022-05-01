@@ -1,27 +1,148 @@
-# PwaAngular
+# PWA - Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
+> PWA Angular for open source projects.
 
-## Development server
+[![NPM Version][npm-badge]][npm-url]
+![Node Version][node-badge]
+![Angular Version][angular-badge]
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+This project provides the following features:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+- **README.md** and **CHANGELOG.md** with information about the project, installation, usage, development, author and license.
+- **Badges** for Travis, Appveyor, CircleCI, Coveralls, npm and License.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Project files
 
-## Running unit tests
+```text
+.
+|--- src
+|    |--- index.js
+|--- test
+|    |--- test.js
+|--- .editorconfig
+|--- .eslintignore
+|--- .eslintrc.json
+|--- .gitattributes
+|--- .gitignore
+|--- .npmrc
+|--- .prettierrc
+|--- .travis.yml
+|--- appveyor.yml
+|--- CHANGELOG.md
+|--- circle.yml
+|--- LICENSE
+|--- main.js
+|--- package.json
+|--- README.md
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation
 
-## Running end-to-end tests
+- Install Node 12.20
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+$ https://nodejs.org/download/release/latest-erbium/
+```
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Install Angular 9
+
+```bash
+$ npm install -g @angular/cli@latest
+```
+
+
+## Usage
+
+- Creating a project
+
+```bash
+# Create a directory for your project
+$ ng new pwa-angular
+
+# Change into directory
+$ cd pwa-angular
+
+# add angular 
+$ ng add @angular/pwa
+
+# Generate a project
+$ ng build --prod
+
+# Acessar pasta dist/pwa-angular e rodar o comando 
+$ npx serve
+```
+
+
+
+- Running project
+
+| Action                                   | Usage               |
+| ---------------------------------------- | ------------------- |
+| Starting development mode                | `ng serve`         |
+
+| Sending coverage results to Coveralls.io | `npm run coveralls` |
+
+## Development
+
+### Prerequisites
+
+- Install [Node.js](https://nodejs.org/download/release/latest-erbium/)
+- Install [npm](https://www.npmjs.com/)
+- Install Angular 
+
+```bash
+$ npm install -g @angular/cli@latest
+```
+
+### Clone the repo
+
+```bash
+$ git clone https://github.com/portifolio-dev/pwa-angular.git
+```
+
+### Run project
+
+```bash
+# Change into directory
+$ cd pwa-angular
+
+
+```
+
+## Author
+
+[Rose Dias]()
+
+
+## License
+
+[MIT](https://github.com/robertoachar/generator-oss-project/blob/master/LICENSE)
+
+[node-badge]: https://img.shields.io/badge/node-12.20-brightgreen
+
+[angular-badge]: https://img.shields.io/badge/angular-13.3.4-brightgreen
+
+
+[npm-badge]: https://img.shields.io/badge/npm-6.14.16-brightgreen
+
+
+[npm-url]: https://www.npmjs.com/package/generator-oss-project
+[npm-downloads-badge]: https://img.shields.io/npm/dt/generator-oss-project.svg
+[npm-downloads-url]: https://www.npmjs.com/package/generator-oss-project
+[travis-badge]: https://travis-ci.org/robertoachar/generator-oss-project.svg?branch=master
+[travis-url]: https://travis-ci.org/robertoachar/generator-oss-project
+[circleci-badge]: https://circleci.com/gh/robertoachar/generator-oss-project/tree/master.svg?style=shield
+[circleci-url]: https://circleci.com/gh/robertoachar/generator-oss-project
+[appveyor-badge]: https://ci.appveyor.com/api/projects/status/github/robertoachar/generator-oss-project?branch=master&svg=true
+[appveyor-url]: https://ci.appveyor.com/project/robertoachar/generator-oss-project
+[coveralls-badge]: https://coveralls.io/repos/github/robertoachar/generator-oss-project/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/robertoachar/generator-oss-project?branch=master
+[license-badge]: https://img.shields.io/github/license/robertoachar/generator-oss-project.svg
+[license-url]: https://opensource.org/licenses/MIT
+
+https://www.webfx.com/tools/emoji-cheat-sheet/
+
+https://shields.io/
