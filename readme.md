@@ -2,9 +2,7 @@
 
 > PWA Angular for open source projects.
 
-[![NPM Version][npm-badge]][npm-url]
-![Node Version][node-badge]
-![Angular Version][angular-badge]
+[![NPM Version][npm-badge]][npm-url]![Node Version][node-badge]![Angular Version][angular-badge]![Semantic-UI Version][semantic-ui-badge]
 
 
 This project provides the following features:
@@ -73,6 +71,9 @@ $ ng build --prod
 
 # Acessar pasta dist/pwa-angular e rodar o comando 
 $ npx serve
+
+# Instalar framework semantic ui
+$ 
 ```
 
 
@@ -91,7 +92,8 @@ $ npx serve
 
 - Install [Node.js](https://nodejs.org/download/release/latest-erbium/)
 - Install [npm](https://www.npmjs.com/)
-- Install Angular 
+- Install Angular
+- Install Framework Css Semantic UI [Semantic UI](https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css)
 
 ```bash
 $ npm install -g @angular/cli@latest
@@ -122,13 +124,9 @@ $ cd pwa-angular
 [MIT](https://github.com/robertoachar/generator-oss-project/blob/master/LICENSE)
 
 [node-badge]: https://img.shields.io/badge/node-12.20-brightgreen
-
 [angular-badge]: https://img.shields.io/badge/angular-13.3.4-brightgreen
-
-
 [npm-badge]: https://img.shields.io/badge/npm-6.14.16-brightgreen
-
-
+[semantic-ui-badge]: https://img.shields.io/badge/Semantic--UI-2.4.1-brightgreen
 [npm-url]: https://www.npmjs.com/package/generator-oss-project
 [npm-downloads-badge]: https://img.shields.io/npm/dt/generator-oss-project.svg
 [npm-downloads-url]: https://www.npmjs.com/package/generator-oss-project
